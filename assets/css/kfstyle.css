@@ -10,6 +10,10 @@ p, h1 {
     color: #dbf5ff;
 }
 
+img {
+    width: 100%;
+}
+
 /*****************************
     Nav
  *****************************/
@@ -25,14 +29,6 @@ a {
 /*Underline in Nav*/
 #sidebar nav a:before {
     background: #dbf5ff;
-}
-
-/*****************************
-    Banner
-******************************/
-
-#banner {
-    width: 100%;
 }
 
 /*****************************
@@ -76,5 +72,5 @@ a {
 *********************************/
 
 #footer {
-    background-color: #9efdff;
+    background-color: #00a2d4;
 }
