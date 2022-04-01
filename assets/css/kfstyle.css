@@ -11,6 +11,7 @@
 
 #sidebar {
     background-color: #00a2d4;
+    padding-left: 2%;
 }
 
 a {
@@ -33,6 +34,6 @@ a {
     color: #dbf5ff;
 }
 
-input {
-    background: rgb(219 245 255 / 0.25)
+#three input, textarea {
+    background: rgb(219 245 255 / 0.55)
 }
