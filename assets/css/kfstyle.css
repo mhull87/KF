@@ -6,7 +6,7 @@
         Cyan: #9efdff
 */
 
-p, a, h1, h2, h3 {
+p, a, li, h1, h2, h3, h4 {
     color: #dbf5ff;
 }
 
@@ -79,4 +79,13 @@ img {
 
 #main {
     background-color: #00304f;
+}
+
+/*********************************
+    Roadmap page
+**********************************/
+
+.check::before {
+     list-style: none;
+     content: '&#10004';
 }
