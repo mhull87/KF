@@ -15,7 +15,7 @@
 }
 
 a {
-    color: white;
+    color: #dbf5ff;
 }
 /*Underline in Nav*/
 #sidebar nav a:before {
@@ -36,7 +36,8 @@ a {
 *******************************/
 
 #intro {
-    padding-top: -1em;
+    background-color: #00304f;
+    color: #dbf5ff;
 }
 
 /*****************************
