@@ -3,11 +3,8 @@
         Dark Blue: #00304f
         Light Blue: #00a2d4
         White: #dbf5ff
+        Cyan: #9efdff
 */
-
-body {
-    background-color: #00304f;
-}
 
 p, h1 {
     color: #dbf5ff;
@@ -43,7 +40,12 @@ a {
     Intro
 *******************************/
 
-#intro p, {
+#intro {
+    background-color: #00304f;
+}
+
+.wrapper.style2 {
+    background-color: #00a2d4;
 }
 
 /*****************************
