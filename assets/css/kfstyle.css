@@ -6,7 +6,7 @@
         Cyan: #9efdff
 */
 
-p, h1 {
+p, a, h1, h2, h3 {
     color: #dbf5ff;
 }
 
@@ -23,9 +23,6 @@ img {
     padding-left: 2%;
 }
 
-a {
-    color: #dbf5ff;
-}
 /*Underline in Nav*/
 #sidebar nav a:before {
     background: #dbf5ff;
