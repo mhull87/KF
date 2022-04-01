@@ -3115,7 +3115,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.spotlights > section > .image {
-			height: 50vh;
+		/*	height: 50vh;*/
 			min-height: 15em;
 		}
 
