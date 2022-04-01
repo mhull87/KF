@@ -1838,7 +1838,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(0, 111, 191, 0.55) !important;
 		border-radius: 3em;
-		color: #0887e3 !important;
+	/*	color: #0887e3 !important;*/
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -3115,8 +3115,8 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.spotlights > section > .image {
-		/*	height: 50vh;*/
-			min-height: 15em;
+		/*	height: 50vh;
+			min-height: 15em;*/
 		}
 
 		.spotlights > section > .content {
