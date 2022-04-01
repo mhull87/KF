@@ -1,4 +1,14 @@
-/*Nav*/
+/*
+    Colors
+        Dark Blue: #00304f
+        Light Blue: #00a2d4
+        White: #dbf5ff
+*/
+
+
+/*****************************
+    Nav
+ *****************************/
 
 #sidebar {
     background-color: #00a2d4;
@@ -7,5 +17,15 @@
 a {
     color: white;
 }
+/*Underline in Nav*/
+#sidebar nav a:before {
+    background: #dbf5ff;
+}
 
-/*Get in touch*/
+/*****************************
+    Get in touch
+ *****************************/
+
+#three {
+    background: linear-gradient(#00304f, #00a2d4);
+}
