@@ -14,7 +14,7 @@ img {
     width: 100%;
 }
 
-.lightbtn {
+.button.lightbtn {
     color: #dbf5ff;
 }
 /*****************************
@@ -67,12 +67,18 @@ img {
     background: rgb(219 245 255 / 0.55)
 }
 
-
-
 /********************************
     Footer
 *********************************/
 
 #footer {
     background-color: #00a2d4;
+}
+
+/********************************
+    How It Works page
+*********************************/
+
+#main {
+    background-color: #00304f;
 }
