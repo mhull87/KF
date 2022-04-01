@@ -1,4 +1,4 @@
-/*
+﻿/*
     Colors
         Dark Blue: #00304f
         Light Blue: #00a2d4
@@ -85,7 +85,10 @@ img {
     Roadmap page
 **********************************/
 
+.check {
+    list-style: none;
+}
+
 .check::before {
-     list-style: none;
-     content: '&#10004';
+    content: '✔';
 }
