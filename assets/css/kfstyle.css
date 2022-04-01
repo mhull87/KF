@@ -89,6 +89,8 @@ img {
     list-style: none;
 }
 
-.check::before {
-    content: '  ✔';
-}
+    .check::before {
+        content: '✔';
+        padding-right: 1.1rem;
+        margin-left: -2rem;
+    }
