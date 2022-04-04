@@ -4,6 +4,9 @@
         Light Blue: #00a2d4
         White: #dbf5ff
         Cyan: #9efdff
+
+    NEW COLORS
+        Dark Blue: #
 */
 
 /*********************************
@@ -34,7 +37,7 @@ img {
  *****************************/
 
 #sidebar {
-    background-color: #00a2d4;
+    background-color: #045bb9;
     padding-left: 2%;
 }
 
@@ -48,7 +51,7 @@ img {
 *******************************/
 
 #intro {
-    background-color: #00304f;
+    background-color: #0b042d;
 }
 
 .wrapper.style2 {
