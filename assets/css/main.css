@@ -3006,6 +3006,7 @@ input, select, textarea {
 		display: block;
 		position: relative;
 		width: 25em;
+		height: fit-content;
 	}
 
 		.spotlights > section > .image img {
@@ -3096,7 +3097,7 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 100%;
-			/*	height: 50vh;*/
+				height: 50vh;
 			}
 
 			.spotlights > section > .content {
