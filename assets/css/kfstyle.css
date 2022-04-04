@@ -5,9 +5,6 @@
         White: #dbf5ff
         Cyan: #9efdff
 
-    NEW COLORS
-        Dark Blue: #0b042d
-        Purple: #692166
 */
 
 /*********************************
@@ -38,7 +35,7 @@ img {
  *****************************/
 
 #sidebar {
-    background-color: #692166; /*Accent*/
+    background-color: #00a2d4; /*Accent*/
     padding-left: 2%;
 }
 
@@ -52,11 +49,11 @@ img {
 *******************************/
 
 #intro {
-    background-color: #0b042d; /*Main*/
+    background-color: #00304f; /*Main*/
 }
 
 .wrapper.style2 {
-    background-color: #692166; /*Accent*/
+    background-color: #00a2d4; /*Accent*/
 }
 
 /******************************
@@ -64,7 +61,7 @@ img {
 *******************************/
 
 #two {
-    background-color: #0b042d; /*Main*/
+    background-color: #00304f; /*Main*/
 }
 
 /*****************************
@@ -73,7 +70,7 @@ img {
 
 #three {
     /*Main to Accent*/
-    background: linear-gradient(#0b042d, #692166);
+    background: linear-gradient(#00304f, #00a2d4);
 }
 
 #three h2, #three p, #three label {
@@ -89,7 +86,7 @@ img {
 *********************************/
 
 #footer {
-    background-color: #692166; /*Accent*/
+    background-color: #00a2d4; /*Accent*/
 }
 
 /********************************
@@ -97,7 +94,7 @@ img {
 *********************************/
 
 #main {
-    background-color: #0b042d; /*Main*/
+    background-color: #00304f; /*Main*/
 }
 
 /*********************************
