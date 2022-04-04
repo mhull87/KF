@@ -6,7 +6,8 @@
         Cyan: #9efdff
 
     NEW COLORS
-        Dark Blue: #
+        Dark Blue: #0b042d
+        Light Blue: #45bb09
 */
 
 /*********************************
@@ -19,7 +20,7 @@ h1, h2, h3, h4 {
 }
 
 p, a, li, h1, h2, h3, h4 {
-    color: #dbf5ff;
+    color: #dbf5ff; /*White*/
 }
 
 img {
@@ -37,13 +38,13 @@ img {
  *****************************/
 
 #sidebar {
-    background-color: #045bb9;
+    background-color: #045bb9; /*New Light Blue*/
     padding-left: 2%;
 }
 
 /*Underline in Nav*/
 #sidebar nav a:before {
-    background: #dbf5ff;
+    background: #dbf5ff; /*White*/
 }
 
 /*****************************
@@ -51,11 +52,11 @@ img {
 *******************************/
 
 #intro {
-    background-color: #0b042d;
+    background-color: #0b042d; /*New Dark Blue*/
 }
 
 .wrapper.style2 {
-    background-color: #00a2d4;
+    background-color: #45bb09; /*New Light Blue*/
 }
 
 /******************************
@@ -63,7 +64,7 @@ img {
 *******************************/
 
 #two {
-    background-color: #00304f;
+    background-color: #0b042d; /*New Dark Blue*/
 }
 
 /*****************************
@@ -75,7 +76,7 @@ img {
 }
 
 #three h2, #three p, #three label {
-    color: #dbf5ff;
+    color: #dbf5ff; /*White*/
 }
 
 #three input, textarea {
@@ -87,7 +88,7 @@ img {
 *********************************/
 
 #footer {
-    background-color: #00a2d4;
+    background-color: #00a2d4; /*New Light Blue*/
 }
 
 /********************************
@@ -95,7 +96,7 @@ img {
 *********************************/
 
 #main {
-    background-color: #00304f;
+    background-color: #0b042d; /*New Dark Blue*/
 }
 
 /*********************************
