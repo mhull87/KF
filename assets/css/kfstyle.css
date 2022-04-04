@@ -7,7 +7,7 @@
 
     NEW COLORS
         Dark Blue: #0b042d
-        Light Blue: #045bb9
+        Purple: #692166
 */
 
 /*********************************
@@ -38,7 +38,7 @@ img {
  *****************************/
 
 #sidebar {
-    background-color: #045bb9; /*New Light Blue*/
+    background-color: #692166; /*Accent*/
     padding-left: 2%;
 }
 
@@ -52,11 +52,11 @@ img {
 *******************************/
 
 #intro {
-    background-color: #0b042d; /*New Dark Blue*/
+    background-color: #0b042d; /*Main*/
 }
 
 .wrapper.style2 {
-    background-color: #045bb9; /*New Light Blue*/
+    background-color: #692166; /*Accent*/
 }
 
 /******************************
@@ -64,7 +64,7 @@ img {
 *******************************/
 
 #two {
-    background-color: #0b042d; /*New Dark Blue*/
+    background-color: #0b042d; /*Main*/
 }
 
 /*****************************
@@ -72,7 +72,8 @@ img {
  *****************************/
 
 #three {
-    background: linear-gradient(#045bb9, #0b042d);
+    /*Main to Accent*/
+    background: linear-gradient(#0b042d, #692166);
 }
 
 #three h2, #three p, #three label {
@@ -88,7 +89,7 @@ img {
 *********************************/
 
 #footer {
-    background-color: #045bb9; /*New Light Blue*/
+    background-color: #692166; /*Accent*/
 }
 
 /********************************
@@ -96,7 +97,7 @@ img {
 *********************************/
 
 #main {
-    background-color: #0b042d; /*New Dark Blue*/
+    background-color: #0b042d; /*Main*/
 }
 
 /*********************************
