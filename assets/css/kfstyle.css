@@ -15,6 +15,9 @@ h1, h2 {
     font-weight: 200;
     font-style: normal;
 }
+h3 {
+    border-bottom: dotted 1px rgba(64, 195, 255, 0.35);
+}
 
 p, a, li, h1, h2, h3, h4, strong {
     color: #dbf5ff; /*White*/
@@ -29,15 +32,6 @@ img {
     margin: auto;
     width: 75%;
 }
-
-#litetitle {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
- #litesub {
-     padding: 0;
-     margin:0;
- }
 
 /*****************************
     Nav
@@ -119,3 +113,17 @@ img {
         padding-right: 1.1rem;
         margin-left: -2rem;
     }
+
+/***************************
+        Lite Paper page
+*****************************/
+
+#litetitle {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#litesub {
+    padding: 0;
+    margin: 0;
+}
