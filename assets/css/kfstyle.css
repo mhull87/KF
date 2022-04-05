@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
     font-style: normal;
 }
 
-p, a, li, h1, h2, h3, h4 {
+p, a, li, h1, h2, h3, h4, strong {
     color: #dbf5ff; /*White*/
 }
 
