@@ -3832,9 +3832,9 @@ input, select, textarea {
 					}
 
 				#sidebar nav a {
-					height: inherit;
+				/*	height: inherit;
 					line-height: inherit;
-					padding: 0;
+					padding: 0;*/
 				}
 
 					#sidebar nav a:after {
