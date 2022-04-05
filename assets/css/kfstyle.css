@@ -15,7 +15,7 @@ h1, h2 {
     font-weight: 200;
     font-style: normal;
 }
-h3 {
+.borderbottom {
     border-bottom: dotted 1px rgba(64, 195, 255, 0.35);
 }
 
