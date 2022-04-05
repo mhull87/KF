@@ -30,6 +30,14 @@ img {
     width: 75%;
 }
 
+#litetitle {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+ #litesub {
+     padding: 0;
+     margin:0;
+ }
 
 /*****************************
     Nav
