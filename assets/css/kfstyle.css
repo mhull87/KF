@@ -36,7 +36,7 @@ img {
 }
 
 /*****************************
-    Nav
+    Nav & Logo
  *****************************/
 
 #sidebar {
@@ -49,10 +49,20 @@ img {
     background: #d6bc3e; /*Gold*/
 }
 
+#logo {
+width: auto;
+padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 1680px) {
+    #logo {
+        padding: 0 0 .5rem;
+    }
+}
+
 /*****************************
     Intro
 *******************************/
-
 #intro {
     background-color: #00304f; /*Main*/
 }
