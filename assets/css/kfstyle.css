@@ -35,6 +35,10 @@ img {
     width: 75%;
 }
 
+.underline {
+    border-bottom: 2px dashed #d6bc3e;
+}
+
 /*****************************
     Nav & Logo
  *****************************/
