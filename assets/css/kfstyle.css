@@ -54,6 +54,18 @@ width: auto;
 padding: 0.5rem;
 }
 
+@media screen and (max-width: 736px) {
+    #banner {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 737px) {
+    #banner {
+        display: none;
+    }
+}
+
 /*****************************
     Intro
 *******************************/
