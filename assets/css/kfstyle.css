@@ -46,7 +46,6 @@ img {
 
 #sidebar {
     background-color: #00a2d4; /*Accent*/
-    padding-left: 2%;
 }
 
 /*Underline in Nav*/
@@ -56,7 +55,6 @@ img {
 
 #logo {
 width: auto;
-padding: 0.5rem;
 }
 
 @media screen and (max-width: 736px) {
