@@ -48,6 +48,10 @@ img {
     background-color: #00a2d4; /*Accent*/
 }
 
+#sidebar .inner {
+    padding-right: 2%;
+}
+
 /*Underline in Nav*/
 #sidebar nav a:before {
     background: #d6bc3e; /*Gold*/
