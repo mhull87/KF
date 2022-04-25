@@ -123,6 +123,10 @@ padding: 0.5rem;
     background-color: #00a2d4; /*Accent*/
 }
 
+footer li {
+    color: black;
+}
+
 /********************************
     How It Works page
 *********************************/
