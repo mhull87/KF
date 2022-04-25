@@ -3533,9 +3533,9 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			-moz-justify-content: center;
-			-webkit-justify-content: center;
+			-webkit-justify-content: space-between;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: space-between;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
