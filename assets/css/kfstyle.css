@@ -95,7 +95,7 @@ width: auto;
     Collapsible
 ********************************/
 
-.content {
+.hidden {
     display: none;
     overflow: hidden;
 }
