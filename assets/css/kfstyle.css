@@ -97,6 +97,7 @@ width: auto;
 
 .collapsible {
     cursor: pointer;
+    display: flex;
 }
 
 .hidden {

@@ -2013,8 +2013,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				left: 2em;
+				top: 2.5em;
 				opacity: 1;
 			}
 
@@ -2170,12 +2170,16 @@ input, select, textarea {
 		}
 
 			.features section .icon {
-				left: 1.5em;
-				top: 2em;
+				left: 1em;
+				top: 1em;
 			}
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.listh3 {
+			margin: .5em 1em;
+		}
 
 		.features section {
 			padding: 2em 1.5em 0.1em 1.5em;
@@ -2481,8 +2485,8 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3.5em;
+			height: 3.5em;
 			display: block;
 			/*background: #0082d3;*/
 			border-radius: 100%;
