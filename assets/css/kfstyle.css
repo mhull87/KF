@@ -95,6 +95,10 @@ width: auto;
     Collapsible
 ********************************/
 
+.collapsible {
+    cursor: pointer;
+}
+
 .hidden {
     display: none;
     overflow: hidden;
