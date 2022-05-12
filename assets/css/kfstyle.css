@@ -111,8 +111,9 @@ img {
     display: block;
 }
 
-.collapsible:hover {
-    background-color: rgba(0, 0, 0, .1);
+.collapsible h3:hover,
+.collapsible h2:hover {
+    color: #003d79;
 }
 
 .collapsible:after {
@@ -135,6 +136,10 @@ img {
 
 #two {
     background-color: #00304f; /*Main*/
+}
+
+.centeronly {
+    margin: auto;
 }
 
 /*****************************
