@@ -16,6 +16,7 @@ h1, h2 {
     font-weight: 200;
     font-style: normal;
 }
+
 .borderbottom {
     font-size: 1.5em;
     border-bottom: dotted 1px rgba(64, 195, 255, 0.35);
@@ -48,17 +49,17 @@ img {
     background-color: #00a2d4; /*Accent*/
 }
 
-#sidebar .inner {
-    padding-right: 2%;
-}
+    #sidebar .inner {
+        padding-right: 2%;
+    }
 
-/*Underline in Nav*/
-#sidebar nav a:before {
-    background: #d6bc3e; /*Gold*/
-}
+    /*Underline in Nav*/
+    #sidebar nav a:before {
+        background: #d6bc3e; /*Gold*/
+    }
 
 #logo {
-width: auto;
+    width: auto;
 }
 
 @media screen and (max-width: 736px) {
@@ -122,13 +123,13 @@ width: auto;
     background: linear-gradient(#00304f, #00a2d4);
 }
 
-#three h2, #three p, #three label {
-    color: #dbf5ff; /*White*/
-}
+    #three h2, #three p, #three label {
+        color: #dbf5ff; /*White*/
+    }
 
-#three input, textarea {
-    background: rgb(219 245 255 / 0.55)
-}
+    #three input, textarea {
+        background: rgb(219 245 255 / 0.55)
+    }
 
 /********************************
     Footer
