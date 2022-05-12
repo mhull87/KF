@@ -119,7 +119,7 @@ img {
 .collapsible:after {
     content: '\002b'; /* Unicode character for "plus" sign (+) */
     font-size: 1.2em;
-    color: white;
+    color: #dbf5ff; /*White*/
     margin-right: 5px;
     position: absolute;
     top: 0;
