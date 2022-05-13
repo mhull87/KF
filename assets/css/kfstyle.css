@@ -111,6 +111,7 @@ img {
         text-decoration: none;
         display: block;
         text-transform: uppercase;
+        border-bottom: dashed 1px #d6bc3e;
     }
 
         .topnav a.icon {
