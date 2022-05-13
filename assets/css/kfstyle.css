@@ -99,19 +99,26 @@ img {
         .topnav #myLinks {
             display: none;
             background: #00a2d4;
+            padding: 0 2em;
         }
 
-        .topnav a {
-            text-decoration: none;
+    #myLinks a:active,
+    #myLinks a:hover {
+        color: #004273;
+    }
+
+    .topnav a {
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+    }
+
+        .topnav a.icon {
             display: block;
+            position: absolute;
+            right: 1em;
+            top: 0;
         }
-
-            .topnav a.icon {
-                display: block;
-                position: absolute;
-                right: 1em;
-                top: 0;
-            }
 }
 /*****************************
     Intro
