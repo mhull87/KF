@@ -81,6 +81,26 @@ img {
 @media screen and (max-width: 736px) {
     #smallmenu {
         display: block;
+        position: absolute;
+        top: 0;
+        right: 1em;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .topnav {
+        position: sticky;
+        overflow: hidden;
+    }
+
+    #myLinks {
+        display: none;
     }
 }
 /*****************************

@@ -1,3 +1,4 @@
+/* Collapse */
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -11,4 +12,14 @@ for (i = 0; i < coll.length; i++) {
             content.style.maxHeight = content.scrollHeight + "px";
         }
     });
+}
+
+/* Toggle small view menu */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
