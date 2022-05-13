@@ -74,34 +74,31 @@ img {
     }
 }
 
-#smallmenu {
+.topnav {
     display: none;
 }
 
 @media screen and (max-width: 736px) {
-    #sidebar nav #smallmenu {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 1em;
-    }
-
-    #sidebar {
-        position: sticky;
-    }
-
-    #hide {
-        display: none;
-    }
-
     .topnav {
-        position: relative;
         overflow: hidden;
+        position: relative;
     }
+
+        .topnav #myLinks {
+            display: none;
+        }
 
         .topnav a {
+            text-decoration: none;
             display: block;
         }
+
+            .topnav a.icon {
+                display: block;
+                position: absolute;
+                right: 1em;
+                top: 0;
+            }
 }
 /*****************************
     Intro
