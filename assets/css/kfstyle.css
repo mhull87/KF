@@ -89,8 +89,6 @@ img {
         height: 3.5em;
     }
 
-    img
-
     .topnav {
         position: sticky;
         display: block;
@@ -107,31 +105,31 @@ img {
         letter-spacing: 0.25em;
     }
 
-    .topnav #myLinks {
-        display: none;
-        background: #00a2d4;
-        padding: 0 2em;
-    }
-
-    #myLinks a:active,
-    #myLinks a:hover,
-    .topnav a:hover {
-        color: #004273;
-    }
-
-    .topnav a {
-        text-decoration: none;
-        display: block;
-        text-transform: uppercase;
-        border-bottom: dashed 1px #d6bc3e;
-    }
-
-        .topnav a.icon {
-            display: block;
-            position: absolute;
-            right: 1em;
-            top: 0;
+        .topnav #myLinks {
+            display: none;
+            background: #00a2d4;
+            padding: 0 2em;
         }
+
+        #myLinks a:active,
+        #myLinks a:hover,
+        .topnav a:hover {
+            color: #004273;
+        }
+
+        .topnav a {
+            text-decoration: none;
+            display: block;
+            text-transform: uppercase;
+            border-bottom: dashed 1px #d6bc3e;
+        }
+
+            .topnav a.icon {
+                display: block;
+                position: absolute;
+                right: 1em;
+                top: 0;
+            }
 }
 /*****************************
     Intro
