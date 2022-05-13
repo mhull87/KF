@@ -74,6 +74,15 @@ img {
     }
 }
 
+#smallmenu {
+    display: none;
+}
+
+@media screen and (max-width: 736px) {
+    #smallmenu {
+        display: block;
+    }
+}
 /*****************************
     Intro
 *******************************/
