@@ -86,8 +86,8 @@ img {
         right: 1em;
     }
 
-    .sidebar {
-        display: block;
+    #sidebar {
+        position: sticky;
     }
 
     #hide {
