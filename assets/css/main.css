@@ -155,7 +155,7 @@ a {
 
     a:hover {
         border-bottom-color: transparent;
-        color: #0343ef;
+        color: #00304f;
     }
 
 strong, b {
@@ -1811,7 +1811,7 @@ hr {
         -moz-transition: border-color 0.2s ease;
         -webkit-transition: border-color 0.2s ease;
         transition: border-color 0.2s ease;
-        background-color: rgba(214, 188, 62, 0.90);
+        background-color: rgba(214, 188, 62);
         border: solid 1px !important;
         border-color: rgba(0, 111, 191, 0.55) !important;
         border-radius: 3em;
