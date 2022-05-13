@@ -79,7 +79,7 @@ img {
 }
 
 @media screen and (max-width: 736px) {
-    #smallmenu {
+    #sidebar nav #smallmenu {
         display: block;
         position: absolute;
         top: 0;
@@ -95,9 +95,13 @@ img {
     }
 
     .topnav {
-        position: sticky;
+        position: relative;
         overflow: hidden;
     }
+
+        .topnav a {
+            display: block;
+        }
 }
 /*****************************
     Intro
