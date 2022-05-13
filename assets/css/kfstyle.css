@@ -78,10 +78,18 @@ img {
     display: none;
 }
 
+@media screen and (max-width: 980px) {
+    #why {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 736px) {
     #logo {
         height: 3.5em;
     }
+
+    img
 
     .topnav {
         position: sticky;
@@ -99,31 +107,31 @@ img {
         letter-spacing: 0.25em;
     }
 
-        .topnav #myLinks {
-            display: none;
-            background: #00a2d4;
-            padding: 0 2em;
-        }
+    .topnav #myLinks {
+        display: none;
+        background: #00a2d4;
+        padding: 0 2em;
+    }
 
-        #myLinks a:active,
-        #myLinks a:hover,
-        .topnav a:hover {
-            color: #004273;
-        }
+    #myLinks a:active,
+    #myLinks a:hover,
+    .topnav a:hover {
+        color: #004273;
+    }
 
-        .topnav a {
-            text-decoration: none;
+    .topnav a {
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        border-bottom: dashed 1px #d6bc3e;
+    }
+
+        .topnav a.icon {
             display: block;
-            text-transform: uppercase;
-            border-bottom: dashed 1px #d6bc3e;
+            position: absolute;
+            right: 1em;
+            top: 0;
         }
-
-            .topnav a.icon {
-                display: block;
-                position: absolute;
-                right: 1em;
-                top: 0;
-            }
 }
 /*****************************
     Intro
