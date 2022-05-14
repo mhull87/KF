@@ -23,3 +23,10 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+/* Image replace */
+const img = document.getElementById("logo");
+img.addEventListener("error", function (event) {
+    event.target.src = "../images/logo-min.png";
+    event.onerror = null;
+})
