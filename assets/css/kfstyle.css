@@ -58,7 +58,7 @@ img {
         background: #d6bc3e; /*Gold*/
     }
 
-#logo {
+.logo {
     width: auto;
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 @media screen and (max-width: 736px) {
-    #logo {
+    .logo {
         height: 3.5em;
     }
 
