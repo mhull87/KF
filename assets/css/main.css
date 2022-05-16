@@ -95,9 +95,22 @@ html {
     box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #9efdff;
 }
+
+    body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        animation: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+    }
 
 /* Type */
 
@@ -1098,6 +1111,10 @@ ul.actions {
             width: 100%;
         }
 
+            ul.actions.fit li > * {
+                width: 100%;
+            }
+
         ul.actions.fit.stacked {
             width: 100%;
         }
@@ -1119,6 +1136,10 @@ ul.actions {
             text-align: center;
             width: 100%;
         }
+
+            ul.actions:not(.fixed) li > * {
+                width: 100%;
+            }
 
             ul.actions:not(.fixed) li:first-child {
                 padding-top: 0;
