@@ -8,6 +8,10 @@
     #1a76cc
 */
 
+body {
+    background: #1a76cc;
+}
+
 /*********************************
     Header font
 **********************************/
@@ -46,7 +50,7 @@ img {
  *****************************/
 
 #sidebar {
-    background-color: #00a2d4; /*Accent*/
+    background-color: #1a76cc; /*Accent*/
 }
 
     #sidebar .inner {
@@ -93,7 +97,7 @@ img {
         position: sticky;
         display: block;
         height: 3.5em;
-        background: #00a2d4;
+        background: #1a76cc;
         left: 0;
         line-height: 3.5em;
         padding: 0;
@@ -107,7 +111,7 @@ img {
 
         .topnav #myLinks {
             display: none;
-            background: #00a2d4;
+            background: #1a76cc;
             padding: 0 2em;
         }
 
@@ -139,7 +143,7 @@ img {
 }
 
 .wrapper.style2 {
-    background-color: #00a2d4; /*Accent*/
+    background-color: #1a76cc; /*Accent*/
 }
 
 #intro, #two {
@@ -205,7 +209,7 @@ img {
 
 #three {
     /*Main to Accent*/
-    background: linear-gradient(#00304f, #00a2d4);
+    background: linear-gradient(#00304f, #1a76cc);
 }
 
     #three h2, #three p, #three label {
@@ -221,7 +225,7 @@ img {
 *********************************/
 
 #footer {
-    background-color: #00a2d4; /*Accent*/
+    background-color: #1a76cc; /*Accent*/
 }
 
 footer li {
