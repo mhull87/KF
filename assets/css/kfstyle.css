@@ -39,6 +39,7 @@ img {
     text-align: center;
     margin: auto;
     width: 75%;
+    display: block;
 }
 
 .underline {
@@ -192,7 +193,7 @@ img {
 }
 
 /******************************
-    What We're Doing
+    Section Two
 *******************************/
 
 #two {
@@ -201,6 +202,10 @@ img {
 
 .centeronly {
     margin: auto;
+}
+
+.spotlights > section:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 /*****************************
