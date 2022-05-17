@@ -271,8 +271,8 @@ footer li {
 
     .check::before {
         content: '✔';
-        padding-right: 1.1rem;
-        margin-left: -2rem;
+        padding-right: .6rem;
+        margin-left: -1.4rem;
     }
 
 /***************************
