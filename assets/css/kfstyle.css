@@ -204,9 +204,12 @@ img {
     margin: auto;
 }
 
-.spotlights > section:nth-child(4),
 .spotlights > section:nth-child(5) {
     background-color: rgba(0, 0, 0, 0.15);
+}
+
+.roadmapimg {
+    background: #1664ae;
 }
 
 /*****************************
