@@ -179,7 +179,8 @@ img {
 }
 
 .collapsible h3:hover,
-.collapsible h2:hover {
+.collapsible h2:hover,
+.collapsible h4:hover {
     color: #003d79;
 }
 
