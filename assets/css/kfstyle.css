@@ -174,6 +174,10 @@ img {
     transition: max-height 0.2s ease-out;
 }
 
+.auto {
+    overflow: auto;
+}
+
 .noflex {
     display: block;
 }
