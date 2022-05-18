@@ -202,6 +202,31 @@ img {
     content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
+/*****************************
+    Scroll Bar
+******************************/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1a76cc;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #1a76cc;
+    }
+
 /******************************
     Section Two
 *******************************/
