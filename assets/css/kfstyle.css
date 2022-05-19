@@ -204,29 +204,29 @@ img {
 
 /*****************************
     Scroll Bar
-******************************/
-/* width */
+*****************************
+ /*width
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-/* Track */
+ /*Track
 ::-webkit-scrollbar-track {
     box-shadow: none;
     border-radius: 10px;
 }
 
-/* Handle */
+ /*Handle
 ::-webkit-scrollbar-thumb {
     background: #1a76cc;
     border-radius: 10px;
 }
 
-    /* Handle on hover */
+    /* Handle on hover
     ::-webkit-scrollbar-thumb:hover {
         background: #1a76cc;
     }
-
+*/
 /******************************
     Section Two
 *******************************/
