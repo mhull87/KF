@@ -119,6 +119,7 @@ img {
             display: none;
             background: #1a76cc;
             padding: 0 2em;
+            margin-top: -14px;
         }
 
         #myLinks a:active,
